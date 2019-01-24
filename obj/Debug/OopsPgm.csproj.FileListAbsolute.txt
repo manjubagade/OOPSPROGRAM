@@ -1,0 +1,11 @@
+C:\Users\Admin\Desktop\manjupgm\oopspgm\OopsPgm\OopsPgm\bin\Debug\OopsPgm.exe.config
+C:\Users\Admin\Desktop\manjupgm\oopspgm\OopsPgm\OopsPgm\bin\Debug\OopsPgm.exe
+C:\Users\Admin\Desktop\manjupgm\oopspgm\OopsPgm\OopsPgm\bin\Debug\OopsPgm.pdb
+C:\Users\Admin\Desktop\manjupgm\oopspgm\OopsPgm\OopsPgm\obj\Debug\OopsPgm.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\manjupgm\oopspgm\OopsPgm\OopsPgm\obj\Debug\OopsPgm.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\manjupgm\oopspgm\OopsPgm\OopsPgm\obj\Debug\OopsPgm.exe
+C:\Users\Admin\Desktop\manjupgm\oopspgm\OopsPgm\OopsPgm\obj\Debug\OopsPgm.pdb
+C:\Users\Admin\Desktop\manjupgm\oopspgm\OopsPgm\OopsPgm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\manjupgm\oopspgm\OopsPgm\OopsPgm\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Admin\Desktop\manjupgm\oopspgm\OopsPgm\OopsPgm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\manjupgm\oopspgm\OopsPgm\OopsPgm\obj\Debug\OopsPgm.csproj.CopyComplete

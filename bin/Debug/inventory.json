@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "rice",
+    "weight": 50.0,
+    "priceperkg": 25.0
+  },
+  {
+    "Name": "pulses",
+    "weight": 50.0,
+    "pricePerkg": 25.0
+  },
+  {
+    "Name": "wheat",
+    "weight": 50.0,
+    "priceperkg": 25.0
+  }
+]
