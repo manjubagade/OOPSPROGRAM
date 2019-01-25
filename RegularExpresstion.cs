@@ -1,13 +1,18 @@
 ﻿
-
 namespace OopsPgm
 {
 
     using System;
     using System.Text.RegularExpressions;
 
-    class RegularExpresstion
+    /// <summary>
+    /// Regular expresstion using replace the string word
+    /// </summary>
+  public class RegularExpresstion
     {
+        /// <summary>
+        /// the regular express
+        /// </summary>
         public void Operation()
         {
            this.ReadData();
@@ -20,26 +25,24 @@ namespace OopsPgm
             //// give string to change the position of names
             string patternForName = "<<name>>";
             ////using showmatch static method of regularexexpression class to replace the pattern with valid data
-            message = RegularExpresstion.showMatch(message, fname, patternForName);
+            message = RegularExpresstion.ShowMatch(message, fname, patternForName);
             ////Pattern for changing full name from the sentence       
             string patternForfame = "<<full name>>";
             ////using showmatch static method of regularexexpression class to replace the pattern with valid data
-            message = RegularExpresstion.showMatch(message, fname + " " + lname, patternForfame);
+            message = RegularExpresstion.ShowMatch(message, fname + " " + lname, patternForfame);
             ////Pattern for changing mobile number from the sentence   
             string contactNumber = "<<91-xxxxxxxxx>>";
             ////using showmatch static method of regularexexpression class to replace the pattern with valid data
-            message = RegularExpresstion.showMatch(message, "91" + " " + mno, contactNumber);
+            message = RegularExpresstion.ShowMatch(message, "91" + " " + mno, contactNumber);
             ////Pattern for changing Currrent date from the sentence   
             string Currentdate = "<<dd/mm/yyyy>>";
             DateTime today = DateTime.Today;
             ////using showmatch static method of regularexexpression class to replace the pattern with valid data
-            message = RegularExpresstion.showMatch(message, today.ToString(), Currentdate);
-
+            message = RegularExpresstion.ShowMatch(message, today.ToString(), Currentdate);
             Console.WriteLine(message);
-
         }
        
-        public static string showMatch(string text, string expression, string pattern)
+        public static string ShowMatch(string text, string expression, string pattern)
         {
             ////creating regex class object for passing pattern
             Regex rgx = new Regex(pattern);
@@ -48,26 +51,28 @@ namespace OopsPgm
         }
         public void ReadData()
         {
-            ////Taking user input for first name
-            Console.WriteLine("Enter your First name");
+            ////take the input from usr
+            Console.WriteLine("ENTER THE FIRST NAME");
             string fname = Console.ReadLine();
-            ////Taking user input for last name
-            Console.WriteLine("Enter your Last name");
+            ////Take the input from usr
+            Console.WriteLine("ENTER THE LAST NAME");
             string lname = Console.ReadLine();
-            ////Taking user input for mobile
-            Console.WriteLine("Enter your mobile number");
+            ////Take the input from usr
+            Console.WriteLine("ENTER THE VALID MOBILE NUMBER");
             string mobilenum = Console.ReadLine();
-            ////creating object of dateTime class to calculate current date
+            ////create one datetime obj
             DateTime thisDay = DateTime.Today;
             ////storing current date in date variable
-            string date = thisDay.ToString("d");
+           //// string date = thisDay.ToString("d");
+           string date = thisDay.ToString("D");
+            date = thisDay.ToString("g");
             if (Regex.IsMatch(mobilenum, @"[0-9]{10}") && Regex.IsMatch(fname, @"[a-zA-z]") && Regex.IsMatch(lname, @"[a-zA-z]"))
             {
                 RetrieveInfo(fname, lname, mobilenum, date);
             }
             else
             {
-                Console.WriteLine("Data is invalid,Try again");
+                Console.WriteLine("DATA IS NOT PROPER TRY AGAIN");
             }
         }
     }

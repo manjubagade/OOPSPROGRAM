@@ -1,13 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-
+﻿//-----------------------------------------------------------------------
+// <copyright file=" InventoryModel.cs" company="Bridgelabz">
+//     Company copyright tag.
+// </copyright>
+//-----------------------------------------------------------------------
 namespace OopsPgm
 {
-  public class InventoryModel
+    using System;
+
+    /// <summary>
+    /// Creating one inventoryModel
+    /// </summary>
+    public class InventoryModel
     {
         public string Name  { get; set; }
 

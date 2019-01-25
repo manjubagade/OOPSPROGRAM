@@ -9,11 +9,12 @@ namespace OopsPgm
   public class Constant
     {
             /// <summary>
-            /// The path for the json file products
+            /// The path for the json file products and stocks
             /// </summary>
-            public readonly string inventoryForProducts = "inventory.json";
-          
-        }
+            public readonly string inventoryProducts = "inventory.json";
+           public readonly string stockDetails = "stock.json";
+
+    }
   }
 
 

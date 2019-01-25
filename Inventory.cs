@@ -19,7 +19,7 @@ namespace OopsPgm
             /// Reads the file from which is json format
             Inventory printsDetailsOfInventory = new Inventory();
             Constant constants = new Constant();
-           IList<InventoryModel> items = printsDetailsOfInventory.ReadFile(constants.inventoryForProducts);
+           IList<InventoryModel> items = printsDetailsOfInventory.ReadFile(constants.inventoryProducts);
             Console.WriteLine("Name\tweight\tRate\tAmount");
             /// for loop to iterate a data from json file
             foreach (var item in items)
