@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace OopsPgm
 {
+    using System;
+
+    /// <summary>
+    /// 
+    /// </summary>
   public class Constant
     {
             /// <summary>
@@ -13,8 +13,21 @@ namespace OopsPgm
             /// </summary>
             public readonly string inventoryProducts = "inventory.json";
            public readonly string stockDetails = "stock.json";
+        public readonly string InventoryManageMentDetails = "InventoryMang.json";
+        public readonly string InventoryManageWrite = "invent.json";
+
+        /// <summary>
+        /// The players
+        /// </summary>
+        public readonly int Players = 4;
+
+        /// <summary>
+        /// The cards
+        /// </summary>
+        public readonly int Cards = 9;
+        public readonly string AddressBook = "AddressBookFile.json";
 
     }
-  }
+}
 
 

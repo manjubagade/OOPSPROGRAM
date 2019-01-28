@@ -30,7 +30,7 @@ namespace OopsPgm
             ////looping the all element printend in the json file
             foreach (var item in stockModels)
             {
-                Console.WriteLine("{0}" + "\t" + "{1}" + "\t" + "{2}" + "\t" + "{3}",item.id, item.name, item.availableShares, item.price);
+                Console.WriteLine("{0}" + "\t" + "{1}" + "\t" + "{2}" + "\t" + "{3}",item.id, item.name, item.availableShares, item.Price);
             }
         }
         /// <summary>

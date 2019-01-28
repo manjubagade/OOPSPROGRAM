@@ -46,14 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddressBook.cs" />
+    <Compile Include="AddressBookModel.cs" />
+    <Compile Include="AddressBookUtil.cs" />
+    <Compile Include="CardQueue.cs" />
     <Compile Include="Constant.cs" />
+    <Compile Include="DeckOfCard.cs" />
     <Compile Include="Inventory.cs" />
+    <Compile Include="InventoryManagement.cs" />
+    <Compile Include="InventoryMangModel.cs" />
     <Compile Include="InventoryModel.cs" />
+    <Compile Include="InventoryUtil.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegularExpresstion.cs" />
     <Compile Include="StockModel.cs" />
     <Compile Include="StockOfsShare.cs" />
+    <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
