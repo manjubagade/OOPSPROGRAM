@@ -1,14 +1,13 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace OopsPgm
 {
-    class InventoryUtil
+    using Newtonsoft.Json;
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+
+   public class InventoryUtil
     {
         IList<InventoryMangModel> inventory = new List<InventoryMangModel>();
 
@@ -22,7 +21,7 @@ namespace OopsPgm
                 string json = streamReader.ReadToEnd();
                 this.inventory = JsonConvert.DeserializeObject<List<InventoryMangModel>>(json);
             }
-
+        
             foreach (var items in this.inventory)
             {
                 Console.WriteLine(items.name + "\t" + items.weight + "\t" + items.pricePerKg);

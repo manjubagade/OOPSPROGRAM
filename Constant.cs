@@ -25,7 +25,7 @@ namespace OopsPgm
         /// The cards
         /// </summary>
         public readonly int Cards = 9;
-        public readonly string AddressBook = "AddressBookFile.json";
+        public readonly string AddressBook = "AddressBook.json";
 
     }
 }
