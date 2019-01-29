@@ -17,6 +17,7 @@ namespace OopsPgm
                 Console.WriteLine("PRESS: 5 TO DECKOFCARD");
                 Console.WriteLine("PRESS 6 TO ADDRESSBOOK");
                 Console.WriteLine("PRESS 7 FOR CARDQUEUE");
+                Console.WriteLine("PRESS 8 FOR COMMERCIAL DATA PROCESSING");
 
                 int n = Convert.ToInt32(Console.ReadLine());
                 switch (n)
